@@ -16,7 +16,7 @@ class App extends Component {
   render(){
     return  (
       <div style={{
-        width: '1000px',
+        maxWidth: '1000px',
         margin: '0 auto'
       }}>
       <div className="header">{this.props.title}</div>
