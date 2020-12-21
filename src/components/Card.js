@@ -8,11 +8,12 @@ class Card extends Component {
       const random3 = Math.random() *255;
       
       const profile = this.props;
+      
       return (
         <div className="github-profile">
           <img alt={`${profile.name}'s profile`} src={profile.avatar_url}/>
           <div className="info">
-            <div className="name" style={{color: `rgb(${random1}, ${random2},${random3})`}}> {profile.name}</div>
+            <div className="name" style={{color: `rgb(${random1}, ${random2},${random3})`}}> <a href={profile.html_url} target="_blank"> {profile.name}</a></div>
             <div className="company"> {profile.company}</div>
           </div>
         </div>

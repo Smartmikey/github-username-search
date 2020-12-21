@@ -13,6 +13,9 @@
   font-size: 1.25rem;
   font-weight: bold;
 }
+.github-profile .info .name a {
+  text-decoration: none;
+}
 form {
   border: thin solid #ddd;
   background-color: #fbfbfb;
