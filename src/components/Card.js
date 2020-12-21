@@ -1,6 +1,6 @@
-import { React} from "React";
+import  React, {Component} from "react";
 
-class Card extends React.Component {
+class Card extends Component {
     render(){
       
       const profile = this.props;

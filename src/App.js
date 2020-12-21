@@ -1,8 +1,8 @@
-import { React} from "React";
-import { CardList } from "./components/CardList";
-import { Form } from "./components/Form";
+import  React, {Component} from "react";
+import  CardList  from "./components/CardList";
+import  Form  from "./components/Form";
 
-class App extends React.Component {
+class App extends Component {
     
   state = {
     profiles: []
