@@ -1,7 +1,7 @@
 import  React, {Component} from "react";
 import  CardList  from "./components/CardList";
 import  Form  from "./components/Form";
-
+import './App.css'
 class App extends Component {
     
   state = {
@@ -15,12 +15,15 @@ class App extends Component {
   }
   render(){
     return  (
-      <>
+      <div style={{
+        width: '1000px',
+        margin: '0 auto'
+      }}>
       <div className="header">{this.props.title}</div>
         <Form onSubmit={this.addNewProfileData} />
     <CardList profiles={this.state.profiles} />
         
-        </>
+        </div>
     )
   }
 }
