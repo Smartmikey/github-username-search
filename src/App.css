@@ -27,5 +27,6 @@ form input {
 .header {
   text-align: center;
   font-size: 1.5rem;
+  padding: 3rem;
   margin-bottom: 1rem;
 }
